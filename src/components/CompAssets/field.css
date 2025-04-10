@@ -1,0 +1,203 @@
+  /*Center Field*/
+
+  .CenterField{
+    position: absolute;
+    top: 0;
+    bottom: 1rem;
+    left: 19rem;
+    right: 0;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+  }
+
+
+
+
+  /*Fields*/
+
+  .TopField{
+    position: absolute;
+    top: 5rem;
+    left: 19rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(180deg);
+  }
+  
+  
+  .BottomField{
+    position: absolute;
+    bottom: 6rem;
+    left: 19rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+  }
+  
+  .LeftField{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 19rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(90deg);
+  }
+  
+  .RightField{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -.5rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(270deg);
+  }
+
+  /*Hand Fields*/
+
+  .BottomFieldHand{
+    position: absolute;
+    bottom: 0;
+    left: 19rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    padding-inline: 1rem 1rem;
+    justify-content: space-evenly;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    width: 25rem;
+    height: 8rem;
+    opacity: 0.75;
+  }
+  .TopFieldHand{
+    position: absolute;
+    Top: -1.25rem;
+    left: 19rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    padding-inline: 1rem 1rem;
+    justify-content: space-evenly;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    width: 25rem;
+    height: 8rem;
+    opacity: 0.75;
+  }
+  .LeftFieldHand{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12.5rem;
+    margin: auto 0;
+    display: flex;
+    padding-inline: 1rem 1rem;
+    justify-content: space-evenly;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    width: 25rem;
+    height: 8rem;
+    opacity: 0.75;
+    transform: rotate(90deg);
+  }
+  .RightFieldHand{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -7rem;
+    margin: auto 0;
+    display: flex;
+    padding-inline: 1rem 1rem;
+    justify-content: space-evenly;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    width: 25rem;
+    height: 8rem;
+    opacity: 0.75;
+    transform: rotate(270deg);
+  }
+
+  /*Top Fields*/
+
+  .TopFieldTop{
+    position: absolute;
+    top: 6rem;
+    left: 17rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(180deg);
+  }
+  
+  
+  .BottomFieldTop{
+    position: absolute;
+    bottom: 7rem;
+    left: 21rem;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+  }
+  
+  .LeftFieldTop{
+    position: absolute;
+    top: 2rem;
+    bottom: 0;
+    left: 20rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(90deg);
+  }
+  
+  .RightFieldTop{
+    position: absolute;
+    top: -2rem;
+    bottom: 0;
+    right: 1rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    width: 25rem;
+    height: 9rem;
+    transform: rotate(270deg);
+  }
+
+  /*Side Info Card*/
+
+  .SideInfoCard{
+    position: relative;
+    margin-left: 6%;
+    margin-top: 7.5%;
+  }
